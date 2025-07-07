@@ -1,0 +1,90 @@
+body{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding: 20px;
+    /* margin: 50%; */
+    border-radius: 20px;
+    /* flex-direction: column; */
+    max-width: 900px;
+    margin: 0 auto;
+    font-family:"Young Serif" ;
+    font-weight: 100px;
+    
+    
+}
+img {
+    width: 100%;
+    height: 100%; */
+    text-align: center;
+    border-radius: 8px;
+}
+.content{
+    /* text-align: center; */
+}
+section.first{
+background-color:rgb(251, 226, 250) ;
+padding-top: 1px;
+border-radius: 8px;
+padding-left: 10px;
+padding-bottom: 6px;
+
+}
+section.first h4{
+    color:darkred ;
+}
+section.second h3{
+        color:darkred ;
+
+}
+section.third h3 {
+    color:darkred ;
+}
+.nutrition h3{
+    color:darkred ;
+}
+
+li{
+    /* color: blue; */
+    padding-bottom: 6px;
+}
+.ul li::marker{
+    color:darkred
+}
+
+.ulone li::marker{
+   color:darkred 
+}
+.ol-two li::marker{
+    color:darkred
+}
+.nutrition table {
+    width:100%;
+    border-collapse: collapse;
+}
+.nutrition td{
+    padding: 12px;
+}
+.nutrition tr:not(last-child){
+    border-bottom:1px solid;
+}
+td:last-child, th:last-child{
+     color:darkred;
+}
+th{
+    text-align: left;
+}
+/* td.valuei{
+     color:darkred}
+     td.valueii{
+        color:darkred}
+td.valueiii{
+        color:darkred} */
+
+        .attribution{
+            padding-top: 20px;
+        }
+@media screen and (max-width: 375px){
+    
+
+}
